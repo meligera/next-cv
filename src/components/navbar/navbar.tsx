@@ -1,6 +1,7 @@
 import { getServerSession } from 'next-auth';
 
 import { LanguageSwitcher } from './language-switcher';
+import { ThemeSwitcher } from '@/components/theme-switcher';
 
 import { authOptions } from '@/app/api/auth/[...nextauth]/auth-options';
 import { SignInButton } from '@/components/navbar/sign-in-button';
@@ -17,9 +18,9 @@ export const Navbar = async () => {
         <Link href="/" className="font-mono text-lg font-bold">
           {m.app_name()}
         </Link>
-        <div className="flex items-center gap-2">
-          {session ? <UserDropdown session={session} /> : <SignInButton />}
+        <div className="flex items-center gap-4">
           <LanguageSwitcher />
+          <ThemeSwitcher />
         </div>
       </div>
     </header>

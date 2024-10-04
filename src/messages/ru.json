@@ -1,9 +1,9 @@
 {
     "$schema": "https://inlang.com/schema/inlang-message-format",
-    "app_name": "Mamrenko German",
-    "sign_in": "Sign in",
-    "theme_toggle_label": "theme toggle",
-    "my_account": "My Account",
+    "app_name": "Мамренко Герман",
+    "sign_in": "Войти",
+    "theme_toggle_label": "смена темы",
+    "my_account": "Мой аккаунт",
     "upgrade_to_pro_cta": "Upgrade to pro",
     "log_out": "Log out",
     "you_are_a_pro": "You are pro!",
@@ -21,8 +21,8 @@
     "meta_keyword_shadcn_ui": "Shadcn/ui",
     "meta_keyword_next_auth": "Next-auth",
     "meta_keyword_prisma": "Prisma",
-    "nextjs_starter_template_headline": "Mamrenko German",
-    "nextjs_starter_template_description": "Shadcn/ui enjoyer, webdev apprentice",
-    "get_started": "Get Started",
+    "nextjs_starter_template_headline": "Мамренко Герман",
+    "nextjs_starter_template_description": "Познаем дизайн shadcn/ui и веб-разработку",
+    "get_started": "Обо мне",
     "github": "Github"
 }
