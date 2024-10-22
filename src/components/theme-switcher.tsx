@@ -5,7 +5,6 @@ import { useTheme } from 'next-themes';
 
 import { Icons } from '@/components/icons';
 import { Button } from '@/components/ui/button';
-import { SparklingGrid } from '@/components/sparkles';
 import * as m from '@/paraglide/messages';
 
 type ThemeSwitcherProps = {

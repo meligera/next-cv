@@ -1,4 +1,6 @@
-import { Loader2, LogOut, LucideProps, Moon, Sun } from 'lucide-react';
+import { Loader2, LogOut, LucideProps, Moon, Sun, Code, Rocket, FileCode, GraduationCap, Database } from 'lucide-react';
+import { DiPython, DiDatabase, DiDjango, DiReact } from 'react-icons/di';
+import { SiFastapi, SiNextdotjs } from 'react-icons/si';
 
 export const Icons = {
   sun: Sun,
@@ -13,4 +15,16 @@ export const Icons = {
       ></path>
     </svg>
   ),
+  Code: Code,
+  Rocket: Rocket,
+  FileCode: FileCode,
+  GraduationCap: GraduationCap,
+  Database: Database,
+  Python: DiPython,
+  FastAPI: SiFastapi,
+  sql: DiDatabase,
+  NextJS: SiNextdotjs,
+  Django: DiDjango,
+  React: DiReact
+
 };
